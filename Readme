@@ -1,0 +1,36 @@
+/* 齐悦  33060109  */
+/* 北京航空航天大学 计算机系 */
+
+
+YCC目录下文件及其作用如下
+/
+	scan.[ch]	词法分析
+	tree.[ch]	语法树构建
+	semantic.[ch]	语义分析
+	symtab.[ch]	符号表建立、类型检查
+	code.[ch]	代码生成接口
+	generate.[ch]	目标代码生成器
+	util.[ch]	在Louden[1]中提供的使用工具
+	main.c		主函数
+	yvm.c		虚拟机模拟器
+	Makefile	make文件
+	Copying	一份GPL协议	
+/bin			存放已经在FC4/GCC4.0下编译通过的二进制文件
+	ycc		c0编译器
+	yvm		虚拟机模拟器
+/doc
+	ycc.odt		本文档的Open Document Templete格式文件，用OpenOffice打开
+	ycc.doc	本文档的Microsoft Word格式文件，用Word打开
+	ycc.pdf	本文档的Portable Document Format格式文件，用Acrobat Reader打开
+/test			测试数据
+	test0.c0
+	test1.c0
+	test2.c0
+	test3.c0
+	test4.c0
+	test_e0.c0
+	test_e1.c0
+	test_e2.c0
+	test_e3.c0
+	test_e4.c0
+/pics			存放本文档图的dia源文件（可用Dia Digrams打开）和PNG文件

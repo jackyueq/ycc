@@ -1,0 +1,14 @@
+/* a test for return */
+int a(int x)
+{
+	return x;
+}
+
+void main()
+{
+	int y;
+	int b;	
+	y = 10;
+	b = a(y);
+	printf(b);
+}	
