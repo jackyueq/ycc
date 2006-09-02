@@ -1,0 +1,16 @@
+void main()
+{
+int i;
+int a[5];
+a[0] = 1;
+a[1] = 2;
+a[2] = 3;
+a[3] = 5;
+a[4] = 8;
+
+while (i < 5)
+{
+	printf(a[i]);
+	i = i + 1;
+}
+}

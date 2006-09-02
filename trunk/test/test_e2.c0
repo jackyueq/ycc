@@ -1,0 +1,16 @@
+/* 测试K&R 2nd return */
+int gcd(int u,int v)
+{
+	if(v == 0)
+		return u;
+	else 
+		return gcd(v,u-u/v*v);
+}
+void main()
+{
+	int x;
+	int y;
+	x=scanf(x);
+	y=scanf(y);
+	printf(gcd(x,y));
+}

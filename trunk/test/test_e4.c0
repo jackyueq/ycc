@@ -1,0 +1,9 @@
+void main()
+{
+	int a;
+	a =2;
+	if (a = 3)	/* test for expression as a para */
+	{
+		printf(a);
+	}
+}

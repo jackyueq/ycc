@@ -1,0 +1,1 @@
+/*Confusing : )*/int _;void __(int _){int _o_;if(_<'*')_=_ + 1;else{_o_ =1;}_o_=_o_ * _;return(_o_);}void main(void){_=1;printf(__(_));}
